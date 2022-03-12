@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Card Neumorphism</title>
+  <style type="text/css">
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	background: #e0e5ec;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h4{
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: arial;
+}
+h5{
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 1rem;
+}
+p{
+	color: #696969;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 10px 0;
+	line-height: 1.5rem;
+}
+.card a{
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	margin: 10px 0;
+	font-size: 1rem;
+	font-weight: bold;
+	box-shadow: 9px 9px 16px rgba(163,177,198,.6),
+				-9px -9px 16px rgba(255,255,255,.5);
+	border-radius: 100px;
+}
+.card a:hover{
+	box-shadow:inset 9px 9px 16px rgba(163,177,198,.6),
+			inset	-9px -9px 16px rgba(255,255,255,.5),
+				9px 9px 16px rgba(163,177,198,.6),
+				-9px -9px 16px rgba(255,255,255,.5);
+}
+.container{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 1100px;
+}
+.card{
+	width: 250px;
+	height: 350px;
+	padding: 40px 30px;
+	margin: 10px;
+	border-radius: 1rem;
+	box-shadow: 9px 9px 16px rgba(163,177,198,.6),
+				-9px -9px 16px rgba(255,255,255,.5);
+
+}
+.imgBox{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #eaeff5;
+	margin: 0 auto;
+	border-radius: 100px;
+	overflow: hidden;
+	box-shadow: 9px 9px 16px rgba(163,177,198,.6),
+				-9px -9px 16px rgba(255,255,255,.5);
+
+}
+.imgBox img{
+	width: inherit;
+	height: inherit;
+}
+
+  </style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Riyo Santo</h4>
+			<h5>171402020</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Syarfan</h4>
+			<h5>171402050</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Frans</h4>
+			<h5>171402059</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Rico</h4>
+			<h5>171402062</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Alfiray</h4>
+			<h5>171402107</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Dicky</h4>
+			<h5>171402131</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+		
+		<div class="card">
+			<div class="imgBox"><img src="1.jpeg"></div>
+			<h4>Yonadhab</h4>
+			<h5>171402146</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+
+	</div>
+</body>
+</html>
